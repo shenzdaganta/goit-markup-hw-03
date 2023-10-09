@@ -1,0 +1,175 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVYBLUE: #2E2F42;
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+    --WHITE: #fff;
+
+}
+
+.header-area {
+    background-color: var(--WHITE);
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logoheader span {
+    text-decoration: none;
+    color: var(--IRIS);
+
+}
+
+.logoheader {
+    text-decoration: none;
+    color: var(--NAVYBLUE);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+
+}
+
+.navlink a {
+    margin-block-start: 0px;
+    color: var(--NAVYBLUE);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    
+}
+
+.navlink {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.navlink a:hover {
+    color: #4D5AE5;
+}
+
+.navcontact a {
+    color:var(--SLATE);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+
+}
+
+.navcontact {
+    list-style: none;
+    padding-left: 0;
+   
+}
+
+.hero {
+    background-color: var(--NAVYBLUE);
+}
+
+.h1 {
+    color: var(--WHITE);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+
+}
+
+.button {
+    border-radius: 4px;
+    border: none;
+    background-color: #4D5AE5;
+    color: var(--WHITE)
+
+}
+
+
+.herolist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.whatsection {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.whatlist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.team {
+    background-color: var(--CLOUD);
+}
+
+.teamsection {
+    
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.teamlist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer {
+    background-color: var(--NAVYBLUE);
+}
+
+.logofooter span {
+    text-decoration: none;
+    color: var(--IRIS);
+}
+
+.logofooter {
+    color: var(--CLOUD);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footerqoute {
+    color: var(--CLOUD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
