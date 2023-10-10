@@ -134,8 +134,8 @@
 
 .whatlist {
     list-style: none;
+    justify-content: center;
     padding-left: 0;
-    margin-left: 156px;
     gap: 24px;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@
 
 .teamlist {
     list-style: none;
-    margin-left: 156px;
+    justify-content: center;
     gap: 24px;
     padding-top: 72px;
     padding-left: 0;
